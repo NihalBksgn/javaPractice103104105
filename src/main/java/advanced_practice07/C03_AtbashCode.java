@@ -30,6 +30,11 @@ public static void main(String[] args) {
     }
 
     //2.Yol:
-
+    System.out.println("bir cumle giriniz");
+    String str= input.nextLine();
+    for(int i=0; i<str.length(); i++){
+        int index= 'z'- str.charAt(i);
+        System.out.println((char)('a' + index));
+    }
 }
 }
